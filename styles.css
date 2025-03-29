@@ -1,10 +1,12 @@
-body {
-  background-color: powderblue;
+.basetext {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
 }
-h1 {
-  color: blue;
+
+
+/* an id can only be had by a single element, as opposed to a class with many elements
+ID's are useful for linking to a specific section of the same page or in a different one */
+#titlecard {
+  background-color: blueviolet;
 }
-p {
-    border: 2px solid powderblue;
-    padding: 30px;
-  }
