@@ -11,3 +11,13 @@ function ClearOptions() {
       x[i].style.display = "none";
     }
 }
+
+var projectImage = document.getElementById("projectItem");
+
+projectImage.onmouseover = function() {
+  projectImage.className = "enlarged";
+}
+
+projectImage.onmouseout = function() {
+  projectImage.className = "";
+}

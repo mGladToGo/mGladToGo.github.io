@@ -5,28 +5,29 @@
   padding: 20px;
 }
 
-
 /* an id can only be had by a single element, as opposed to a class with many elements
 ID's are useful for linking to a specific section of the same page or in a different one */
 #titlecard {
   background-color: blueviolet;
 }
 
-
-@keyframes project {
-  from {width: 30%; height: 30%;}
-  to {width: 35%; height: 35%;}
-}
-
 .projectItem {
   float: left;
-  /*border: 2px solid black;*/
+  border: 2px solid black;
   border-radius: 15px;
   margin: 7%;
-  padding: 5px;
   width: 30%;
   height: 30%;
-  animation-name: project;
-  animation-duration: 500ms;
-  animation-delay: 1s;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.projectItem:hover {
+  transform: scale(1.1); /* Enlarge on hover */
+  border-color: blue; /* Change border color */
+}
+
+.projectItem img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
