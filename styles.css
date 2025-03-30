@@ -1,5 +1,6 @@
 .basetext {
   border: 2px solid black;
+  border-radius: 15px;
   margin: 20px;
   padding: 20px;
 }
@@ -9,4 +10,23 @@
 ID's are useful for linking to a specific section of the same page or in a different one */
 #titlecard {
   background-color: blueviolet;
+}
+
+
+@keyframes project {
+  from {width: 30%; height: 30%;}
+  to {width: 35%; height: 35%;}
+}
+
+.projectItem {
+  float: left;
+  /*border: 2px solid black;*/
+  border-radius: 15px;
+  margin: 7%;
+  padding: 5px;
+  width: 30%;
+  height: 30%;
+  animation-name: project;
+  animation-duration: 500ms;
+  animation-delay: 1s;
 }
