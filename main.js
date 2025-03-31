@@ -1,7 +1,6 @@
 "use strict";
 
-// Current goal to display images with text underneath, with the images enlargening on hover of the mouse
-// Each image should link to the same page, scrolling to that projects section
+// Current goal: Create the page for current work being conducted along with week of the year
 
 // Function to occur when a button is pressed, removes option icons from the display
 // Currently as template only

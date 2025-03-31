@@ -12,17 +12,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style="background-color: beige;">
+<body style="background-color: antiquewhite;">
 
     <!-- Basic text controls and css settings, styles.css should be linked in for future use -->
-    <h1 style="color:greenyellow; text-align: center;">My First Heading</h1>
-    <p class="basetext" style="color:red; font-family: 'Times New Roman', Times, serif; " title="This is a test pop up">My first paragraph.</p>
-    <p> <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">Visit W3Schools.com!</a> </p>
+    <h1 style="color:black; text-align: center;">Mitchell Gladigau</h1>
+    <p class="basetext" style="font-family: 'Times New Roman', Times, serif; ">A paragraph about my degree and my work since completeing it. In his opening pitch for re-election, Anthony Albanese said: "We don't need to copy from any other nation to make Australia even better and stronger. We only need to trust in our values and back our people." It was Albanese's first, and I suspect not the last, attempt to evoke the image of Donald Trump and the chaos he is wreaking in the US and imply, but not directly say, that Opposition Leader Peter Dutton is attempting to borrow the same ideas and tactics here. Federal election 2025 live: Get the latest updates from the campaign trail with our blog Asked if he was referring to Trump, Albanese said people would "make their own judgements". "But people will have a look at the mass sackings of public servants," he said, referring to Dutton's promise to cull the Commonwealth public service by 41,000. In response, Dutton accused Albanese of starting a "sledge-a-thon" over Trump. </p>
     <!-- block level elements like p and div take up the full width available unless otherwise enclosed-->
     <!-- inline elements like span and input only take up as much space as the text requires-->
-    <p> <a href="projectDetails.html"> Explore My completed work </a> </p>
+    <p class="basetext"> <a href="projectDetails.html"> Explore my current work </a> </p>
 
-    <h1 style="font-size:4vw">This is an example of adaptive font sizing</h1>
+    <!-- <h1 style="font-size:4vw">This is an example of adaptive font sizing</h1> -->
 
     <!-- First row of project images -->
     <div class="TileRow">
@@ -69,7 +68,15 @@
 
     <!-- Project Descriptions -->
     <h2 id="P1" style="text-align: center; margin-top: 40px;">Prosthetic</h2>
-    <p style="text-align: center;">In his opening pitch for re-election, Anthony Albanese said: "We don't need to copy from any other nation to make Australia even better and stronger. We only need to trust in our values and back our people."
+    <div class="descriptionRow">
+        <div class="descriptionImage">
+            <img src="table.jpg" alt="Image of project 1" width="100%" height="auto" title="An image of the 3D Print">
+        </div>
+        <div class="descriptionImage">
+            <img src="table.jpg" alt="Image of project 1" width="100%" height="auto">
+        </div>
+    </div>
+    <p class="descriptionText">In his opening pitch for re-election, Anthony Albanese said: "We don't need to copy from any other nation to make Australia even better and stronger. We only need to trust in our values and back our people."
 
         It was Albanese's first, and I suspect not the last, attempt to evoke the image of Donald Trump and the chaos he is wreaking in the US and imply, but not directly say, that Opposition Leader Peter Dutton is attempting to borrow the same ideas and tactics here.
         
@@ -93,7 +100,16 @@
         In response, Dutton accused Albanese of starting a "sledge-a-thon" over Trump.</p>
 
     <h2 id="P2" style="text-align: center; margin-top: 40px;">Circuits</h2>
-    <p style="text-align: center;">In his opening pitch for re-election, Anthony Albanese said: "We don't need to copy from any other nation to make Australia even better and stronger. We only need to trust in our values and back our people."
+    <div class="descriptionRow">
+        <div class="descriptionImage">
+            <img src="table.jpg" alt="Image of project 1" width="100%" height="auto">
+        </div>
+        <div class="descriptionImage">
+            <img src="table.jpg" alt="Image of project 1" width="100%" height="auto">
+        </div>
+    </div>
+    <div class="descriptionText">
+        <p>In his opening pitch for re-election, Anthony Albanese said: "We don't need to copy from any other nation to make Australia even better and stronger. We only need to trust in our values and back our people."
 
         It was Albanese's first, and I suspect not the last, attempt to evoke the image of Donald Trump and the chaos he is wreaking in the US and imply, but not directly say, that Opposition Leader Peter Dutton is attempting to borrow the same ideas and tactics here.
         
@@ -115,9 +131,21 @@
         "But people will have a look at the mass sackings of public servants," he said, referring to Dutton's promise to cull the Commonwealth public service by 41,000.
         
         In response, Dutton accused Albanese of starting a "sledge-a-thon" over Trump.</p>
+    </div>
 
-    <h2 id="P3" style="text-align: center; margin-top: 40px;">Something else</h2>
-    <p style="text-align: center;">In his opening pitch for re-election, Anthony Albanese said: "We don't need to copy from any other nation to make Australia even better and stronger. We only need to trust in our values and back our people."
+    <h2 id="P3"; style="text-align: center; margin-top: 40px;">Something else</h2>
+    <div class="descriptions">
+        <div class="descriptionRow">
+            <div class="descriptionImage">
+                <img src="table.jpg" alt="Image of project 1" width="100%" height="auto">
+            </div>
+            <div class="descriptionImage">
+                <img src="table.jpg" alt="Image of project 1" width="100%" height="auto">
+            </div>
+            
+        </div>
+        <div class="descriptionText">
+            <p>In his opening pitch for re-election, Anthony Albanese said: "We don't need to copy from any other nation to make Australia even better and stronger. We only need to trust in our values and back our people."
 
         It was Albanese's first, and I suspect not the last, attempt to evoke the image of Donald Trump and the chaos he is wreaking in the US and imply, but not directly say, that Opposition Leader Peter Dutton is attempting to borrow the same ideas and tactics here.
         
@@ -139,6 +167,15 @@
         "But people will have a look at the mass sackings of public servants," he said, referring to Dutton's promise to cull the Commonwealth public service by 41,000.
         
         In response, Dutton accused Albanese of starting a "sledge-a-thon" over Trump.</p>
+        </div>
+    </div>
+    
+
+    <div>
+        <footer>
+            <p> Non-registered non-trademark of Mitch "Gladiator" Gladigau</p>
+        </footer>
+    </div>
 </body>
 
 </html>

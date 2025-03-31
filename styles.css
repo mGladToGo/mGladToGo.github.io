@@ -1,25 +1,64 @@
-h2 {
-  width: 100%;
-}
-
+/* basic style for general text */
 .basetext {
-  border: 2px solid black;
   border-radius: 15px;
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
 }
 
+.navButton {
+  border: solid black;
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  width: min-content;
+}
+
+/* global styles for sizing usefulness and consistency */
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size:50px;
+}
+
+
+/* Styles for description images and text blocks */
+.descriptionRow {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  width: 100%;
+  height: 12%;
+}
+
+.descriptionImage {
+  float: left;
+  width: 20%;
+  height: 12%;
+}
+
+.descriptionImage img {
+  border-radius: 50px;
+}
+
+.descriptionText {
+  float: left;
+  padding: 10px;
+  background-color: beige;
+  border-radius: 18px;
+}
+
+
+
+/* Styles for project tiles and summary */
 .TileRow {
   display: flex;
-    justify-content: space-between;
-    gap: 5px;  /* Space between items within a row */
-    margin-bottom: 0px; /* Space between rows */
-}
-
-/* an id can only be had by a single element, as opposed to a class with many elements
-ID's are useful for linking to a specific section of the same page or in a different one */
-#titlecard {
-  background-color: blueviolet;
+  justify-content: space-between;
+  gap: 5px;  /* Space between items within a row */
+  margin-bottom: 0px; /* Space between rows */
 }
 
 .projectItem {
@@ -41,4 +80,12 @@ ID's are useful for linking to a specific section of the same page or in a diffe
   width: 100%;
   height: auto;
   border-radius: 15px;
+}
+
+footer {
+  background-color: #777;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  margin-top: 250px;
 }
