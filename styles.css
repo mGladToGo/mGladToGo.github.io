@@ -1,8 +1,19 @@
+h2 {
+  width: 100%;
+}
+
 .basetext {
   border: 2px solid black;
   border-radius: 15px;
   margin: 20px;
   padding: 20px;
+}
+
+.TileRow {
+  display: flex;
+    justify-content: space-between;
+    gap: 5px;  /* Space between items within a row */
+    margin-bottom: 0px; /* Space between rows */
 }
 
 /* an id can only be had by a single element, as opposed to a class with many elements
@@ -15,7 +26,7 @@ ID's are useful for linking to a specific section of the same page or in a diffe
   float: left;
   border: 2px solid black;
   border-radius: 15px;
-  margin: 7%;
+  margin: 2%;
   width: 30%;
   height: 30%;
   transition: transform 0.3s ease, border-color 0.3s ease;
