@@ -1,10 +1,24 @@
-/* basic style for general text */
-.basetext {
-  border-radius: 15px;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgb(4, 160, 160);
+.summaryRow {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
 }
+
+.summaryText {
+  padding: 10px;
+  background-color: lightskyblue;
+  width: 70%;
+  align-items: center;
+}
+
+.currentLink {
+  display: grid;
+  background-color: darkseagreen;
+  width: 30%;
+  place-items: center;
+}
+
+
 
 .navButton {
   border: solid black;
@@ -99,12 +113,4 @@ footer {
   text-align: center;
   color: white;
   margin-top: 250px;
-}
-
-/* mdl colours */
-.mdl-color--primary {
-  background-color: lime; /* Indigo Primary */
-}
-.mdl-color--accent {
-  background-color: turquoise; /* Pink Accent */
 }
