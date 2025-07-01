@@ -125,3 +125,9 @@ footer {
   color: white;
   margin-top: 250px;
 }
+
+.hover-effect:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
